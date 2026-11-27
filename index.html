@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wire and Kiln: a cloisonné puzzle for iPhone</title>
+<meta name="description" content="Wire and Kiln is a calm puzzle for iPhone: tap the gold dot between two enamel cells to trade their enamel, keep the frit dish from running over, and fire the piece. 80 pieces, no ads, no tracking.">
+<link rel="canonical" href="https://nguyenvanlamm.github.io/wire-and-kiln-site/">
+<link rel="icon" type="image/png" sizes="192x192" href="favicon.png">
+<link rel="apple-touch-icon" href="favicon.png">
+<meta name="theme-color" content="#F4EFE6">
+<meta property="og:site_name" content="Wire and Kiln">
+<meta property="og:title" content="Wire and Kiln: trade enamel across the wire, fire the piece">
+<meta property="og:description" content="A calm cloisonné puzzle for iPhone. 80 pieces, Small Dishes free, no ads, no tracking. Coming soon to the App Store.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://nguyenvanlamm.github.io/wire-and-kiln-site/">
+<meta property="og:image" content="https://nguyenvanlamm.github.io/wire-and-kiln-site/board.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+<style>
+  :root { --paper: #F4EFE6; --ink: #1E1B17; --ink2: #5E554B; --terra: #A14F31; --rule: #DDD3C3; --card: #FBF8F2; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.6 Inter, system-ui, -apple-system, sans-serif; }
+  main { max-width: 980px; margin: 0 auto; padding: 0 20px; }
+  .over { font: 600 12px/1 Inter, sans-serif; letter-spacing: .14em; text-transform: uppercase; color: var(--terra); }
+  h1, h2, h3 { font-family: Newsreader, Georgia, serif; font-weight: 400; line-height: 1.1; margin: 0; }
+  h1 { font-size: clamp(44px, 8vw, 76px); letter-spacing: -.01em; }
+  h1 em { color: var(--terra); }
+  h2 { font-size: clamp(30px, 4.5vw, 42px); margin: 10px 0 20px; }
+  h3 { font-size: 24px; margin: 0 0 6px; }
+  .hero { display: grid; grid-template-columns: 1.1fr .9fr; gap: 40px; align-items: center; padding: 56px 0 40px; }
+  .lede { font: italic 21px/1.5 Newsreader, Georgia, serif; color: var(--ink2); margin: 18px 0 28px; max-width: 34em; }
+  .badge { display: inline-flex; align-items: center; gap: 10px; background: var(--ink); color: var(--paper); border-radius: 10px; padding: 14px 20px; font-weight: 600; }
+  .shot { width: 100%; max-width: 340px; justify-self: center; border-radius: 28px; border: 1px solid var(--rule); box-shadow: 0 24px 60px rgba(64, 40, 20, .18); }
+  section { border-top: 1px solid var(--rule); padding: 44px 0; }
+  ol.steps { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; counter-reset: step; }
+  ol.steps li { counter-increment: step; }
+  ol.steps li::before { content: counter(step, upper-roman); display: block; font: italic 26px Newsreader, serif; color: var(--terra); margin-bottom: 6px; }
+  .cols { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+  .card { background: var(--card); border: 1px solid var(--rule); border-radius: 12px; padding: 20px; }
+  ul.plain { padding-left: 1.1em; margin: 0; }
+  p { margin: 0 0 12px; }
+  footer { border-top: 1px solid var(--rule); padding: 28px 0 48px; color: var(--ink2); font-size: 15px; display: flex; gap: 20px; flex-wrap: wrap; }
+  a { color: var(--terra); }
+  @media (max-width: 760px) {
+    .hero, ol.steps, .cols { grid-template-columns: 1fr; }
+    .hero { padding-top: 36px; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header class="hero">
+    <div>
+      <p class="over">A cloisonné puzzle for iPhone</p>
+      <h1>Wire <em>and</em> Kiln</h1>
+      <p class="lede">Trade enamel across the wire. Fire the piece. Tap the gold dot between two cells and they swap their enamel: fill each cell with its own colour, and keep the frit dish from running over.</p>
+      <span class="badge" aria-label="Coming soon to the App Store">Coming soon to the App Store</span>
+    </div>
+    <img class="shot" src="board.png" width="390" height="844" alt="A Wire and Kiln piece in play: a Trinket Box of turquoise, ivory, moss and damson enamel cells divided by gold wires, with gold solder dots on the wires, the frit dish and the bench tools below.">
+  </header>
+
+  <section aria-labelledby="how">
+    <p class="over">How it plays</p>
+    <h2 id="how">Three moves to learn, eighty pieces to fire</h2>
+    <ol class="steps">
+      <li><h3>Trade</h3><p>Tap the solder dot on a wire. The two cells on either side trade their enamel.</p></li>
+      <li><h3>Mind the dish</h3><p>Enamel that does not fit falls into a small frit dish. If the dish runs over, the piece is spoilt.</p></li>
+      <li><h3>Fire</h3><p>A cell full of its own enamel is fired and locks, and becomes a wall that shapes every trade after it.</p></li>
+    </ol>
+  </section>
+
+  <section aria-labelledby="inside">
+    <p class="over">What's inside</p>
+    <h2 id="inside">A workshop catalogue to fill</h2>
+    <div class="cols">
+      <div class="card"><h3>80 pieces</h3><p>Five collections: Small Dishes, Trinket Boxes, Vases, Pendants and Screens. Every piece is checked by the game's own solver; its par is the fewest trades it takes.</p></div>
+      <div class="card"><h3>Two bench tools</h3><p>The Spatula takes back a trade. The Loupe shows the next good one.</p></div>
+      <div class="card"><h3>A cabinet</h3><p>Every fired piece takes its place on a shelf. Fire one at par and it earns a hallmark.</p></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="fair">
+    <p class="over">Fair play</p>
+    <h2 id="fair">Free to start, nothing watching you</h2>
+    <ul class="plain">
+      <li>Small Dishes, all 16 pieces, is free.</li>
+      <li>The East Gallery (Trinket Boxes and Vases) and the West Gallery (Pendants and Screens) are one-time purchases. The Bench Set refills tools if you want more.</li>
+      <li>No ads, no tracking, no account. Your progress stays on your iPhone.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <span>Wire and Kiln</span>
+    <a href="support.html">Support</a>
+    <a href="privacy.html">Privacy Policy</a>
+  </footer>
+</main>
+</body>
+</html>
