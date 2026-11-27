@@ -1,0 +1,28 @@
+# Wire and Kiln
+
+> A calm cloisonné puzzle for iPhone: tap the gold dot on the wire between two cells to trade their enamel, keep the frit dish from running over, and fire the piece. English only. Coming soon to the App Store.
+
+## How it plays
+
+- Trade: tap the gold solder dot on a wire; the two cells on either side trade their enamel.
+- Mind the frit dish: spare enamel falls into a small dish and pours back into its home cell when there is room. If the dish runs over, the piece is spoilt.
+- Fire: a cell full of its own enamel is fired and locks, and its wires close, so the order of trades matters. A piece also ends when fired cells close off every trade left.
+
+## What's inside
+
+- 80 pieces in five collections: Small Dishes, Trinket Boxes, Vases, Pendants and Screens (16 each).
+- Each piece has a par worked out by the game's own solver; firing at or under par earns a hallmark.
+- Two bench tools: the Spatula takes back the last trade, the Loupe shows the next good trade.
+- A cabinet on the home screen fills with every fired piece. No timers, no lives, no streaks.
+
+## Fair play
+
+- Small Dishes (16 pieces) costs nothing to play.
+- East Gallery (Trinket Boxes and Vases) and West Gallery (Pendants and Screens) are one-time in-app purchases; the Bench Set (5 Spatulas, 3 Loupes) is optional.
+- No ads, no tracking, no account, no data collected. Progress stays on the device; the game plays offline.
+
+## Pages
+
+- [Home](https://nguyenvanlamm.github.io/wire-and-kiln-site/): what the game is and how it plays
+- [Support](https://nguyenvanlamm.github.io/wire-and-kiln-site/support.html): contact, how to play, purchases and restoring
+- [Privacy Policy](https://nguyenvanlamm.github.io/wire-and-kiln-site/privacy.html): what the game stores and never collects
