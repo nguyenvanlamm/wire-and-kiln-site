@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Wire and Kiln: a cloisonné puzzle for iPhone</title>
-<meta name="description" content="Wire and Kiln is a calm puzzle for iPhone: tap the gold dot between two enamel cells to trade their enamel, keep the frit dish from running over, and fire the piece. 80 pieces, no ads, no tracking.">
+<meta name="description" content="A calm cloisonné puzzle for iPhone: trade enamel across gold wires, keep the frit dish from running over, fire 80 pieces. No ads, no tracking.">
 <link rel="canonical" href="https://nguyenvanlamm.github.io/wire-and-kiln-site/">
 <link rel="icon" type="image/png" sizes="192x192" href="favicon.png">
 <link rel="apple-touch-icon" href="favicon.png">
@@ -15,6 +15,47 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://nguyenvanlamm.github.io/wire-and-kiln-site/">
 <meta property="og:image" content="https://nguyenvanlamm.github.io/wire-and-kiln-site/board.png">
+<meta property="og:image:width" content="390">
+<meta property="og:image:height" content="844">
+<meta property="og:image:alt" content="A Wire and Kiln piece in play: enamel cells divided by gold wires, the frit dish and the bench tools below.">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Wire and Kiln: trade enamel across the wire, fire the piece">
+<meta name="twitter:description" content="A calm cloisonné puzzle for iPhone. 80 pieces, Small Dishes free, no ads, no tracking. Coming soon to the App Store.">
+<meta name="twitter:image" content="https://nguyenvanlamm.github.io/wire-and-kiln-site/board.png">
+<meta name="twitter:image:alt" content="A Wire and Kiln piece in play: enamel cells divided by gold wires, the frit dish and the bench tools below.">
+<link rel="alternate" type="text/plain" href="llms.txt" title="llms.txt">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://nguyenvanlamm.github.io/wire-and-kiln-site/#website",
+      "name": "Wire and Kiln",
+      "url": "https://nguyenvanlamm.github.io/wire-and-kiln-site/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": ["VideoGame", "SoftwareApplication"],
+      "@id": "https://nguyenvanlamm.github.io/wire-and-kiln-site/#game",
+      "name": "Wire and Kiln",
+      "description": "A calm cloisonné puzzle for iPhone. Tap the gold dot on the wire between two cells to trade their enamel, keep the frit dish from running over, and fire each piece. 80 pieces in five collections; Small Dishes (16 pieces) costs nothing to play, the East and West Galleries are one-time in-app purchases. No ads, no tracking, no account.",
+      "url": "https://nguyenvanlamm.github.io/wire-and-kiln-site/",
+      "image": "https://nguyenvanlamm.github.io/wire-and-kiln-site/board.png",
+      "genre": "Puzzle",
+      "gamePlatform": "iPhone",
+      "operatingSystem": "iOS",
+      "applicationCategory": "GameApplication",
+      "inLanguage": "en",
+      "playMode": "SinglePlayer",
+      "author": { "@type": "Organization", "name": "Wire and Kiln" },
+      "publisher": { "@type": "Organization", "name": "Wire and Kiln" },
+      "isPartOf": { "@id": "https://nguyenvanlamm.github.io/wire-and-kiln-site/#website" }
+    }
+  ]
+}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
@@ -41,7 +82,9 @@
   .card { background: var(--card); border: 1px solid var(--rule); border-radius: 12px; padding: 20px; }
   ul.plain { padding-left: 1.1em; margin: 0; }
   p { margin: 0 0 12px; }
-  footer { border-top: 1px solid var(--rule); padding: 28px 0 48px; color: var(--ink2); font-size: 15px; display: flex; gap: 20px; flex-wrap: wrap; }
+  footer { border-top: 1px solid var(--rule); padding: 28px 0 48px; color: var(--ink2); font-size: 15px; display: flex; gap: 20px; flex-wrap: wrap; align-items: center; }
+  footer a { display: inline-block; padding: 10px 0; min-height: 44px; box-sizing: border-box; }
+  .launch { margin: 14px 0 0; color: var(--ink2); font-size: 15px; }
   a { color: var(--terra); }
   @media (max-width: 760px) {
     .hero, ol.steps, .cols { grid-template-columns: 1fr; }
@@ -56,7 +99,8 @@
       <p class="over">A cloisonné puzzle for iPhone</p>
       <h1>Wire <em>and</em> Kiln</h1>
       <p class="lede">Trade enamel across the wire. Fire the piece. Tap the gold dot between two cells and they swap their enamel: fill each cell with its own colour, and keep the frit dish from running over.</p>
-      <span class="badge" aria-label="Coming soon to the App Store">Coming soon to the App Store</span>
+      <span class="badge">Coming soon to the App Store</span>
+      <p class="launch">Bookmark this page: the App Store link goes here on launch day.</p>
     </div>
     <img class="shot" src="board.png" width="390" height="844" alt="A Wire and Kiln piece in play: a Trinket Box of turquoise, ivory, moss and damson enamel cells divided by gold wires, with gold solder dots on the wires, the frit dish and the bench tools below.">
   </header>
@@ -77,7 +121,7 @@
     <div class="cols">
       <div class="card"><h3>80 pieces</h3><p>Five collections: Small Dishes, Trinket Boxes, Vases, Pendants and Screens. Every piece is checked by the game's own solver; its par is the fewest trades it takes.</p></div>
       <div class="card"><h3>Two bench tools</h3><p>The Spatula takes back a trade. The Loupe shows the next good one.</p></div>
-      <div class="card"><h3>A cabinet</h3><p>Every fired piece takes its place on a shelf. Fire one at par and it earns a hallmark.</p></div>
+      <div class="card"><h3>A cabinet</h3><p>Every fired piece takes its place on a shelf. Fire one at or under par and it earns a hallmark.</p></div>
     </div>
   </section>
 
